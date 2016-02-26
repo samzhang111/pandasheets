@@ -1,6 +1,7 @@
 from oauth2client.client import SignedJwtAssertionCredentials
 import json
 import gspread
+import os
 
 
 def get_sheets_client(config):
@@ -9,5 +10,5 @@ def get_sheets_client(config):
     return gspread.authorize(credentials)
 
 if __name__ == '__main__':
-    config = json.load(open('../esm-api/config.json'))
+    config = json.load(open(os.environ['TEST_CONFIG_FILE']))
     gc = get_sheets_client(config)
