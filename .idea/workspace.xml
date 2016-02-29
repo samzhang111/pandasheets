@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ad7d73e-2d88-4c3b-9e85-3c7ad0d37ff9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test_pandasheets.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/helpers/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/helpers/matchers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/journey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_pandaworksheet.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/__init__.py" afterPath="$PROJECT_DIR$/pandasheet/pandaworksheet.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/helpers/cell_helpers.py" afterPath="$PROJECT_DIR$/tests/helpers/cell_helpers.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/helpers/fixtures.py" afterPath="$PROJECT_DIR$/tests/helpers/fixtures.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/journey/__init__.py" afterPath="$PROJECT_DIR$/tests/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/journey/test_pandasheet.py" afterPath="$PROJECT_DIR$/tests/journey/test_pandasheet.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_pandasheet.py" afterPath="$PROJECT_DIR$/tests/test_pandasheet.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pandasheets.iml" afterPath="$PROJECT_DIR$/.idea/pandasheets.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pandasheet/pandasheet.py" afterPath="$PROJECT_DIR$/pandasheet/pandasheet.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pandasheet/signin.py" afterPath="$PROJECT_DIR$/pandasheet/signin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/helpers/fixtures.py" afterPath="$PROJECT_DIR$/test/helpers/fixtures.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/journey/test_pandasheet.py" afterPath="$PROJECT_DIR$/test/journey/test_pandasheet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_pandasheet.py" afterPath="$PROJECT_DIR$/test/test_pandasheet.py" />
     </list>
     <ignored path="pandasheets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,52 +37,26 @@
     <favorites_list name="pandasheets" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4481277">
       <split-first>
-        <leaf>
-          <file leaf-file-name="pandasheet.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pandasheet/pandasheet.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6015625">
-                  <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="fixtures.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/helpers/fixtures.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="pandaworksheet.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pandasheet/pandaworksheet.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+                  <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
                   <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="test_pandasheet.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/test_pandasheet.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3359375">
-                  <caret line="45" column="20" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="20" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
+                    <element signature="e#0#14#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file leaf-file-name="test_pandasheet.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/journey/test_pandasheet.py">
+            <entry file="file://$PROJECT_DIR$/tests/journey/test_pandasheet.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+                  <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
@@ -84,9 +68,61 @@
             <entry file="file://$PROJECT_DIR$/pandasheet/signin.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                  <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
                   <folding>
                     <element signature="e#0#61#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cell_helpers.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/helpers/cell_helpers.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.13592233">
+                  <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="test_pandasheet.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/test_pandasheet.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#19#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fixtures.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tests/helpers/fixtures.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_pandaworksheet.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tests/test_pandaworksheet.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.5436893">
+                  <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -112,19 +148,28 @@
         <option value="$PROJECT_DIR$/dfsheets.py" />
         <option value="$PROJECT_DIR$/pandasheet/dfsheets.py" />
         <option value="$PROJECT_DIR$/test/journey/test_dfsheets.py" />
-        <option value="$PROJECT_DIR$/test/helpers/cell_helpers.py" />
-        <option value="$PROJECT_DIR$/pandasheet/signin.py" />
         <option value="$PROJECT_DIR$/test/journey/test_pandasheet.py" />
-        <option value="$PROJECT_DIR$/test/helpers/fixtures.py" />
-        <option value="$PROJECT_DIR$/pandasheet/pandasheet.py" />
+        <option value="$PROJECT_DIR$/test/helpers/cell_helpers.py" />
+        <option value="$PROJECT_DIR$/test/test_pandaworksheet.py" />
+        <option value="$PROJECT_DIR$/test/helpers/matchers.py" />
         <option value="$PROJECT_DIR$/test/test_pandasheet.py" />
+        <option value="$PROJECT_DIR$/test/helpers/fixtures.py" />
+        <option value="$PROJECT_DIR$/tests/helpers/matchers.py" />
+        <option value="$PROJECT_DIR$/tests/test_pandasheet.py" />
+        <option value="$PROJECT_DIR$/pandasheet/pandasheet.py" />
+        <option value="$PROJECT_DIR$/venv/lib/python3.4/site-packages/gspread/models.py" />
+        <option value="$PROJECT_DIR$/pandasheet/signin.py" />
+        <option value="$PROJECT_DIR$/pandasheet/pandaworksheet.py" />
+        <option value="$PROJECT_DIR$/tests/helpers/fixtures.py" />
+        <option value="$PROJECT_DIR$/tests/test_pandaworksheet.py" />
+        <option value="$PROJECT_DIR$/tests/helpers/cell_helpers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="2560" />
-    <option name="height" value="1345" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -152,7 +197,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,7 +225,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -195,7 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -213,7 +257,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -237,6 +281,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,142 +294,7 @@
       <recent name="$PROJECT_DIR$/pandasheet" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe">
-    <configuration default="false" name="py.test in TestPandaSheet" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="" value="" />
-        <env name="TEST_CONFIG_FILE" value="/Users/szhang1/.bernie.json" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pandasheets" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/test_pandasheet.py" />
-      <option name="keywords" value="TestPandaSheet" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="" value="" />
-        <env name="TEST_CONFIG_FILE" value="/Users/szhang1/.bernie.json" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pandasheets" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/test_pandasheet.py" />
-      <option name="keywords" value="TestPandaSheet and test_load_worksheet_pulls_into_dataframe" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in TestPandaSheetEndToEnd" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="" value="" />
-        <env name="TEST_CONFIG_FILE" value="/Users/szhang1/.bernie.json" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pandasheets" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/journey/test_pandasheet.py" />
-      <option name="keywords" value="TestPandaSheetEndToEnd" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in TestPandaSheetEndToEnd and test_can_load_existing_sheet_into_dataframe" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="" value="" />
-        <env name="TEST_CONFIG_FILE" value="/Users/szhang1/.bernie.json" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pandasheets" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/journey/test_pandasheet.py" />
-      <option name="keywords" value="TestPandaSheetEndToEnd and test_can_load_existing_sheet_into_dataframe" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in TestPandaSheet and test_attempts_to_convert_numerical_values" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="" value="" />
-        <env name="TEST_CONFIG_FILE" value="/Users/szhang1/.bernie.json" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pandasheets" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/test/test_pandasheet.py" />
-      <option name="keywords" value="TestPandaSheet and test_attempts_to_convert_numerical_values" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.PandaSheet">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -510,22 +420,36 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheet" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheetEndToEnd" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheetEndToEnd and test_can_load_existing_sheet_into_dataframe" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheet and test_attempts_to_convert_numerical_values" />
+    <configuration default="false" name="PandaSheet" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="" value="" />
+        <env name="TEST_CONFIG_FILE" value="~/dev/bernie/config.json" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pandasheets" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.PandaSheet" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheet" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheetEndToEnd and test_can_load_existing_sheet_into_dataframe" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheet and test_attempts_to_convert_numerical_values" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in TestPandaSheetEndToEnd" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -541,23 +465,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_TestPandaSheet - 2016.02.25 at 21h 47m 20s.xml">
-      <configuration name="py.test in TestPandaSheet" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestPandaSheetEndToEnd_and_test_can_load_existing_sheet_into_dataframe - 2016.02.25 at 21h 36m 20s.xml">
-      <configuration name="py.test in TestPandaSheetEndToEnd and test_can_load_existing_sheet_into_dataframe" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestPandaSheetEndToEnd_and_test_can_load_existing_sheet_into_dataframe - 2016.02.25 at 21h 41m 28s.xml">
-      <configuration name="py.test in TestPandaSheetEndToEnd and test_can_load_existing_sheet_into_dataframe" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestPandaSheetEndToEnd_and_test_can_load_existing_sheet_into_dataframe - 2016.02.25 at 21h 47m 07s.xml">
-      <configuration name="py.test in TestPandaSheetEndToEnd and test_can_load_existing_sheet_into_dataframe" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestPandaSheet_and_test_attempts_to_convert_numerical_values - 2016.02.25 at 21h 44m 03s.xml">
-      <configuration name="py.test in TestPandaSheet and test_attempts_to_convert_numerical_values" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_TestPandaSheet_and_test_attempts_to_convert_numerical_values - 2016.02.25 at 21h 45m 14s.xml">
-      <configuration name="py.test in TestPandaSheet and test_attempts_to_convert_numerical_values" configurationId="tests" />
+    <history-entry file="PandaSheet - 2016.02.26 at 21h 33m 53s.xml">
+      <configuration name="PandaSheet" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_TestPandaSheet_and_test_attempts_to_convert_numerical_values - 2016.02.25 at 21h 45m 27s.xml">
       <configuration name="py.test in TestPandaSheet and test_attempts_to_convert_numerical_values" configurationId="tests" />
@@ -571,28 +480,43 @@
     <history-entry file="py_test_in_TestPandaSheet_and_test_load_worksheet_pulls_into_dataframe - 2016.02.25 at 21h 49m 31s.xml">
       <configuration name="py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_TestPandaSheet_and_test_load_worksheet_pulls_into_dataframe - 2016.02.26 at 20h 54m 58s.xml">
+      <configuration name="py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestPandaSheet_and_test_load_worksheet_pulls_into_dataframe - 2016.02.26 at 21h 01m 20s.xml">
+      <configuration name="py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestPandaSheet_and_test_load_worksheet_pulls_into_dataframe - 2016.02.26 at 21h 01m 33s.xml">
+      <configuration name="py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestPandaSheet_and_test_load_worksheet_pulls_into_dataframe - 2016.02.26 at 21h 01m 39s.xml">
+      <configuration name="py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_TestPandaSheet_and_test_load_worksheet_pulls_into_dataframe - 2016.02.26 at 21h 01m 46s.xml">
+      <configuration name="py.test in TestPandaSheet and test_load_worksheet_pulls_into_dataframe" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1345" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299373" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47648904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299373" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991684" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2765073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -600,25 +524,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/lib/python3.4/site-packages/pandas/core/indexing.py">
+    <entry file="file://$PROJECT_DIR$/pandasheet/pandasheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41475213">
-          <caret line="1434" column="45" selection-start-line="1434" selection-start-column="45" selection-end-line="1434" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers/cell_helpers.py">
+    <entry file="file://$PROJECT_DIR$/tests/helpers/fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47279322">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_pandasheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#10#0" expanded="false" />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/journey/test_pandasheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -633,40 +575,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/helpers/fixtures.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.4/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41475213">
+          <caret line="1434" column="45" selection-start-line="1434" selection-start-column="45" selection-end-line="1434" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/helpers/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pandasheet/pandasheet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6015625">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/journey/test_pandasheet.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.4/site-packages/gspread/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <caret line="626" column="6" selection-start-line="626" selection-start-column="6" selection-end-line="626" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/helpers/matchers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_pandasheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pandasheet/pandaworksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/journey/test_pandasheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_pandasheet.py">
+    <entry file="file://$PROJECT_DIR$/pandasheet/signin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3359375">
-          <caret line="45" column="20" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/helpers/fixtures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_pandaworksheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5436893">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/helpers/cell_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13592233">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

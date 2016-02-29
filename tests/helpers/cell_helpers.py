@@ -2,7 +2,6 @@ import xml
 
 from gspread import Cell
 from mock import MagicMock
-from test.helpers.fixtures import gspread_worksheet
 
 
 class FakeCellElement(dict):
@@ -14,18 +13,27 @@ class ComparableCell(Cell):
         return self.value == other.value and self.row == other.row and self.col == other.col
 
 
-def get_empty_cells(rows, cols):
+def get_empty_cells(rows, cols, worksheet):
     empty_cells = []
     for i in range(rows):
         for j in range(cols):
-            element = make_element(i + 1, j + 1, 0)
-            empty_cells.append(ComparableCell(gspread_worksheet, element))
+            print(i, j)
+            cell = make_cell(i + 1, j + 1, 0, worksheet)
+            empty_cells.append(cell)
 
     return empty_cells
 
+def get_empty_elements(rows, cols):
+    empty_elements = []
+    for i in range(rows):
+        for j in range(cols):
+            cell = make_element(i + 1, j + 1, 0)
+            empty_elements.append(cell)
 
-def get_test_cells_like_df(df):
-    cells = get_empty_cells(*df.shape)
+    return empty_elements
+
+def get_test_cells_like_df(df, worksheet):
+    cells = get_empty_cells(*df.shape, worksheet=worksheet)
     for cell in cells:
         row = cell.row - 2
         col = cell.col - 1
@@ -39,6 +47,8 @@ def get_test_cells_like_df(df):
 
     return cells
 
+def make_cell(workbook, *args, **kwargs):
+    return ComparableCell(workbook, make_element(*args, **kwargs))
 
 def make_element(row, col, value, input_value=None, numeric_value=None):
     mock_element = MagicMock(spec=xml.etree.ElementTree.Element)
@@ -49,6 +59,9 @@ def make_element(row, col, value, input_value=None, numeric_value=None):
         numeric_value=numeric_value
     )
     found_element.text = value
+    mock_element.col = col
+    mock_element.row = row
+    mock_element.value = value
     mock_element.find.return_value = found_element
 
     return mock_element

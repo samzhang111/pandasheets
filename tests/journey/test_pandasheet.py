@@ -4,7 +4,7 @@ import pandas as pd
 import pytest
 from expects import *
 from pandasheet.pandasheet import PandaSheet
-from test.helpers.fixtures import logged_in_sheet, test_worksheet
+from tests.helpers.fixtures import logged_in_sheet, test_worksheet
 
 
 @pytest.mark.integration

@@ -28,17 +28,14 @@ class PandaSheet:
         worksheet.update_cells(cells)
 
     def get_all_cells(self, worksheet):
-        bottom_right = worksheet.get_addr_int(
-            worksheet.row_count,
-            worksheet.col_count)
-
-        return worksheet.range('A1:%s' % bottom_right)
+        return worksheet._fetch_cells()
 
     def load(self, worksheet_name, headers=False):
         worksheet = self.gspread_sheet.worksheet(worksheet_name)
         all_cells = self.get_all_cells(worksheet)
 
-        df = pd.DataFrame(index=range(worksheet.row_count - headers), columns=range(worksheet.col_count))
+        shape = self._get_shape_of_sparse_cells(all_cells)
+        df = pd.DataFrame(index=range(shape[0] - headers), columns=range(shape[1]))
 
         columns = {}
         for cell in all_cells:
@@ -63,3 +60,31 @@ class PandaSheet:
                 return float(value)
         except ValueError:
             return value
+
+    def _get_shape_of_sparse_cells(self, cells):
+        width = 0
+        height = 0
+        for cell in cells:
+            if cell.col > height:
+                height = cell.col
+            if cell.row > width:
+                width = cell.row
+
+        return (width, height)
+
+    def from_sparse_cell_list(self, cells):
+        shape = self._get_shape_of_sparse_cells(cells)
+        df = pd.DataFrame(index=range(shape[0]), columns=range(shape[1]))
+
+        columns = {}
+        for cell in cells:
+            row = cell.row - 1
+            col = cell.col - 1
+
+            if row == -1:
+                columns[col] = cell.value
+            else:
+                df.iloc[row, col] = self.convert_value(cell.value)
+
+        return df
+

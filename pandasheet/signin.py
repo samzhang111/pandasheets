@@ -21,3 +21,4 @@ def fire_up_pandasheets(config, spreadsheet):
 if __name__ == '__main__':
     config = json.load(open(os.environ['TEST_CONFIG_FILE']))
     ps = fire_up_pandasheets(config, sys.argv[1])
+

@@ -2,11 +2,15 @@ import json
 
 import os
 
+import gspread
 import pytest
 from gspread import Spreadsheet, Worksheet, WorksheetNotFound
 from mock import MagicMock
 from pandasheet.pandasheet import PandaSheet
+from pandasheet.pandaworksheet import PandaWorksheet
 from pandasheet.signin import get_sheets_client
+from tests.helpers.cell_helpers import get_empty_cells, make_cell, make_element, ComparableCell, get_empty_elements
+import pandas as pd
 
 
 @pytest.fixture
@@ -41,9 +45,30 @@ def gspread_sheet():
 
 
 @pytest.fixture
-def gspread_worksheet():
-    return MagicMock(spec=Worksheet)
+def fake_cells(gspread_worksheet):
+    return get_empty_cells(5, 5, gspread_worksheet)
+
+@pytest.fixture
+def gspread_worksheet(shape):
+    mock_worksheet = MagicMock(spec=Worksheet)
+    empty_elements = get_empty_cells(shape[0], shape[1], mock_worksheet)
+
+    mock_worksheet.client = MagicMock(spec=gspread.Client)
+    mock_worksheet.client.get_cells_feed.return_value = empty_elements
+    return mock_worksheet
+
 
 @pytest.fixture
 def pandasheet(gspread_sheet):
     return PandaSheet(gspread_sheet)
+
+@pytest.fixture
+def pandaworksheet(shape):
+    mock_worksheet = MagicMock(spec=Worksheet)
+    empty_elements = get_empty_elements(shape[0], shape[1])
+
+    pw = PandaWorksheet(mock_worksheet, CellClass=ComparableCell)
+
+    pw.get_cell_feed = lambda: empty_elements
+
+    return pw
